@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+
+}
+.main{
+    width: 500px;
+    height: 400px;
+    border: 1px solid gray;
+    margin-left:400px ;
+    margin-top:150px ;
+    background-color: azure;
+    border-radius: 10px;
+}
+.header > p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:black;
+    margin-left: 14px;
+
+}
+
+.header > p1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    color:black;
+    margin-left: 14px;
+
+}
+hr{
+    margin-top: 18px;
+}
+.question{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:14px ;
+
+}
+
+#option1{
+    width: 400px;
+    text-align: left;
+    margin-left:25px;
+    margin-top:25px;
+    padding-left: 15px;
+    height: 25px;
+    line-height: 20px;
+    border:1px solid gray ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: aliceblue;
+}
+#option2{
+    width: 400px;
+    text-align: left;
+    margin-left:25px;
+    margin-top:25px;
+    padding-left: 15px;
+    height: 25px;
+    line-height: 20px;
+    border:1px solid gray ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: aliceblue;
+}#option3{
+    width: 400px;
+    text-align: left;
+    margin-left:25px;
+    margin-top:25px;
+    padding-left: 15px;
+    height: 25px;
+    line-height: 20px;
+    border:1px solid gray ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+    background-color: aliceblue;
+}#option4{
+    width: 400px;
+    text-align: left;
+    margin-left:25px;
+    margin-top:25px;
+    padding-left: 15px;
+    height: 25px;
+    line-height: 20px;
+    border:1px solid gray ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: aliceblue;    
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+.a{
+    opacity: ;
+
+}

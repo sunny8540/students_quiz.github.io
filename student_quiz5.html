@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 4 quiz
+    </title>
+    <link rel="stylesheet" href="student_quiz.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="header"><p>Quiz</p>
+        <p1>Only One Option Correct:</p1><hr></div>
+            <div class="question">
+                Q5.Which is the largest organ in the human body?
+            </div>
+             <button id="option1" onfocus="focus1()" onblur="blur1()">A.  Leg </button>
+             <button id="option2" onfocus="focus2()" onblur="blur2()">B.  Brain</button><br>
+             <button id="option3" onfocus="focus3()" onblur="blur3()">C.  hand</button><br>
+             <button id="option4" onfocus="focus4()" onblur="blur4()">D.  skin</button><br><hr>
+          
+            <a href="student_quiz5.htmlf">submit All</a>
+        </div>
+        <script>
+            function focus1(){
+                document.querySelector("#option1").style.background="red";
+                document.querySelector("#option1").style.opacity="0.4";
+                
+            }
+            function blur1(){
+                document.querySelector("#option1").style.background="";
+                document.querySelector("#option1").style.opacity="1";
+            }
+            function focus2(){
+                document.querySelector("#option2").style.background="red";
+                document.querySelector("#option2").style.opacity="0.4";
+                
+            }
+            function blur2(){
+                document.querySelector("#option2").style.background="";
+                document.querySelector("#option2").style.opacity="1";
+            }
+            function focus3(){
+                document.querySelector("#option3").style.background="red";
+                document.querySelector("#option3").style.opacity="0.4";
+                
+            }
+            function blur3(){
+                document.querySelector("#option3").style.background="";
+                document.querySelector("#option3").style.opacity="1";
+            }
+            function focus4(){
+                document.querySelector("#option4").style.background="green";
+                document.querySelector("#option4").style.opacity="0.4";
+                
+            }
+            function blur4(){
+                document.querySelector("#option4").style.background="";
+                document.querySelector("#option4").style.opacity="1";
+            }
+        </script>
+</body>
+</html>
